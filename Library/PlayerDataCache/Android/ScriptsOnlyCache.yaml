@@ -97,17 +97,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 3056}
     - Class: 114
-      Script: {instanceID: 3826}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 3918}
+      Script: {instanceID: 3828}
     - Class: 114
-      Script: {instanceID: 4940}
+      Script: {instanceID: 3920}
     - Class: 114
-      Script: {instanceID: 16954}
+      Script: {instanceID: 4192}
     - Class: 114
-      Script: {instanceID: 16956}
+      Script: {instanceID: 4944}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -156,9 +156,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 5022}
+      Script: {instanceID: 5026}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -205,11 +205,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 3414}
+      Script: {instanceID: 3416}
     - Class: 114
-      Script: {instanceID: 4644}
+      Script: {instanceID: 4648}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -499,6 +499,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 8756bdfca6b07ef0cccc08000a026cb0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoneyIvent
+  - hash:
+      serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -703,6 +709,12 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 627792b599a152dff4862f49d8c881d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UpMoney
+  - hash:
+      serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -797,18 +809,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Lose
-  - hash:
-      serializedVersion: 2
-      Hash: 8756bdfca6b07ef0cccc08000a026cb0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MoneyIvent
-  - hash:
-      serializedVersion: 2
-      Hash: 627792b599a152dff4862f49d8c881d7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: UpMoney
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
