@@ -4,16 +4,19 @@ ScriptsOnlyBuild:
     - Lose
     - MainMenu
     - MenuPause
+    - MoneyIvent
     - MoveAndSpawnRoad
     - MoveCoins
     - MoveObjects
     - Player
     - SpawnCars
     - SpawnCoins
+    - UpMoney
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -65,6 +68,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -97,6 +104,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3918}
     - Class: 114
       Script: {instanceID: 4940}
+    - Class: 114
+      Script: {instanceID: 16954}
+    - Class: 114
+      Script: {instanceID: 16956}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -786,6 +797,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Lose
+  - hash:
+      serializedVersion: 2
+      Hash: 8756bdfca6b07ef0cccc08000a026cb0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoneyIvent
+  - hash:
+      serializedVersion: 2
+      Hash: 627792b599a152dff4862f49d8c881d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UpMoney
   platform: 13
   scenePathNames:
   - Assets/Scenes/Menu.unity
