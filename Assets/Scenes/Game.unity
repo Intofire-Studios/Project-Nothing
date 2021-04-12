@@ -659,6 +659,7 @@ GameObject:
   - component: {fileID: 1040338923}
   - component: {fileID: 1040338925}
   - component: {fileID: 1040338924}
+  - component: {fileID: 1040338926}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -718,7 +719,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Quit
+  m_Text: '
 
 '
 --- !u!222 &1040338925
@@ -729,6 +730,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040338922}
   m_CullTransparentMesh: 1
+--- !u!114 &1040338926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040338922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 803567df7ba702948bc2ea10034a1fc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  language: 
+  textRu: "\u0412\u044B\u0439\u0442\u0438"
+  textEng: Quit
 --- !u!1 &1058677930
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,13 +1193,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1614756295}
-  m_LocalRotation: {x: -0.35371384, y: -0.29849827, z: -0.59426206, w: 0.6577523}
+  m_LocalRotation: {x: -0.08292901, y: -0.0067413617, z: -0.68657386, w: 0.7222837}
   m_LocalPosition: {x: 11.6, y: 4.88, z: -4.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: -55.093, y: 2.777, z: -85.643}
+  m_LocalEulerAnglesHint: {x: -7.415, y: 6.028, z: -87.487}
 --- !u!1 &1620910726 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1646981259178978, guid: 0ae65270c30153049ab49eb3ebf070d6, type: 3}
@@ -1202,20 +1218,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
---- !u!114 &1620910728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620910726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 029161de5fb39b24aacb71562581e0bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Money: 0
-  txt: {fileID: 1890430172}
 --- !u!1 &1629815933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,13 +1304,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629815933}
-  m_LocalRotation: {x: 0.49592638, y: 0.570499, z: -0.4819938, w: 0.44302365}
+  m_LocalRotation: {x: 0.44144613, y: 0.5197639, z: -0.5323404, w: 0.5015821}
   m_LocalPosition: {x: 11.07, y: 4.86, z: -4.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 81.638, y: 169.131, z: 72.605}
+  m_LocalEulerAnglesHint: {x: 85.02, y: 36.317, z: -59.942}
 --- !u!1 &1678826170
 GameObject:
   m_ObjectHideFlags: 0
@@ -1601,9 +1603,10 @@ GameObject:
   - component: {fileID: 1890430171}
   - component: {fileID: 1890430173}
   - component: {fileID: 1890430172}
+  - component: {fileID: 1890430174}
   m_Layer: 5
   m_Name: Balans
-  m_TagString: Untagged
+  m_TagString: Balance
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1669,6 +1672,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890430170}
   m_CullTransparentMesh: 1
+--- !u!114 &1890430174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1890430170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0823c88de84ab02409dc5f01f49ea9c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1916297586
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,6 +2035,7 @@ GameObject:
   - component: {fileID: 2082756714}
   - component: {fileID: 2082756716}
   - component: {fileID: 2082756715}
+  - component: {fileID: 2082756717}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2079,9 +2095,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Resume
-
-'
+  m_Text: 
 --- !u!222 &2082756716
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2090,3 +2104,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2082756713}
   m_CullTransparentMesh: 1
+--- !u!114 &2082756717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082756713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 803567df7ba702948bc2ea10034a1fc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  language: 
+  textRu: "\u0412\u043E\u0437\u043E\u0431\u043D\u043E\u0432\u0438\u0442\u044C"
+  textEng: Resume

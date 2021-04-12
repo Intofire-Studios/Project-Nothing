@@ -473,6 +473,7 @@ GameObject:
   - component: {fileID: 1107511740}
   - component: {fileID: 1107511742}
   - component: {fileID: 1107511741}
+  - component: {fileID: 1107511743}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -521,7 +522,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -532,7 +533,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Quit
+  m_Text: 
 --- !u!222 &1107511742
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -541,6 +542,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107511739}
   m_CullTransparentMesh: 1
+--- !u!114 &1107511743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107511739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 803567df7ba702948bc2ea10034a1fc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  language: 
+  textRu: "\u0412\u044B\u0439\u0442\u0438"
+  textEng: Quit
 --- !u!1 &1524048182
 GameObject:
   m_ObjectHideFlags: 0
@@ -552,6 +568,7 @@ GameObject:
   - component: {fileID: 1524048183}
   - component: {fileID: 1524048185}
   - component: {fileID: 1524048184}
+  - component: {fileID: 1524048186}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -600,7 +617,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
+    m_FontSize: 80
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -611,7 +628,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Restart
+  m_Text: 
 --- !u!222 &1524048185
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -620,6 +637,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524048182}
   m_CullTransparentMesh: 1
+--- !u!114 &1524048186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524048182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 803567df7ba702948bc2ea10034a1fc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  language: 
+  textRu: "\u041D\u0430\u0447\u0430\u0442\u044C \u0437\u0430\u043D\u043E\u0432\u043E"
+  textEng: Restart
 --- !u!1 &1600628295
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,6 +10,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(1);
         Time.timeScale = 1;
     }
+    public void LocalisationButton()
+    {
+        SceneManager.LoadScene(3);
+    }
     public void Exit()
     {
         Application.Quit();
